@@ -2109,13 +2109,13 @@ body.dark .some-icon {
     [class^="section-coinintro"] {
       padding: 20px 0; } }
 
-[class^="section-aboutparticl"] {
+[class^="section-aboutallcryptoquick"] {
   padding: 0 0 100px; }
   @media only screen and (max-width: 1179px) {
-    [class^="section-aboutparticl"] {
+    [class^="section-aboutallcryptoquick"] {
       padding: 0 0 64px; } }
   @media only screen and (max-width: 767px) {
-    [class^="section-aboutparticl"] {
+    [class^="section-aboutallcryptoquick"] {
       padding: 20px 0; } }
 
 [class^="section-believe"] {
@@ -6896,114 +6896,114 @@ body.dark .some-icon {
     .platform__button {
       margin: 0 0 16px; } }
 
-.about-particl .stage-small {
+.about-allcryptoquick .stage-small {
   margin-bottom: 96px; }
   @media only screen and (max-width: 1023px) {
-    .about-particl .stage-small {
+    .about-allcryptoquick .stage-small {
       margin-bottom: 64px; } }
   @media only screen and (max-width: 767px) {
-    .about-particl .stage-small {
+    .about-allcryptoquick .stage-small {
       margin-bottom: 32px; } }
 
-.about-particl__row {
+.about-allcryptoquick__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   @media only screen and (max-width: 1179px) {
-    .about-particl__row {
+    .about-allcryptoquick__row {
       margin-left: -150px; } }
   @media only screen and (max-width: 1023px) {
-    .about-particl__row {
+    .about-allcryptoquick__row {
       display: block;
       margin: 0; } }
 
-.about-particl__col:first-child {
+.about-allcryptoquick__col:first-child {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 448px;
           flex: 0 0 448px; }
   @media only screen and (max-width: 1023px) {
-    .about-particl__col:first-child {
+    .about-allcryptoquick__col:first-child {
       margin-bottom: 48px; } }
 
-.about-particl__col:nth-child(2) {
+.about-allcryptoquick__col:nth-child(2) {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding-left: 128px; }
   @media only screen and (max-width: 1339px) {
-    .about-particl__col:nth-child(2) {
+    .about-allcryptoquick__col:nth-child(2) {
       padding-left: 80px; } }
   @media only screen and (max-width: 1023px) {
-    .about-particl__col:nth-child(2) {
+    .about-allcryptoquick__col:nth-child(2) {
       padding: 0; } }
 
-.about-particl__col-two:first-child {
+.about-allcryptoquick__col-two:first-child {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%; }
   @media only screen and (max-width: 1023px) {
-    .about-particl__col-two:first-child {
+    .about-allcryptoquick__col-two:first-child {
       margin-bottom: 48px; } }
 
-.about-particl__col-two:nth-child(2) {
+.about-allcryptoquick__col-two:nth-child(2) {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding-left: 128px; }
   @media only screen and (max-width: 1339px) {
-    .about-particl__col-two:nth-child(2) {
+    .about-allcryptoquick__col-two:nth-child(2) {
       padding-left: 80px; } }
   @media only screen and (max-width: 1023px) {
-    .about-particl__col-two:nth-child(2) {
+    .about-allcryptoquick__col-two:nth-child(2) {
       padding: 0; } }
 
-.about-particl__preview img {
+.about-allcryptoquick__preview img {
   width: 100%;
   border-radius: 16px; }
   @media only screen and (max-width: 767px) {
-    .about-particl__preview img {
+    .about-allcryptoquick__preview img {
       margin-bottom: 50px; } }
 
-.about-particl__title {
+.about-allcryptoquick__title {
   margin-bottom: 32px; }
 
-.about-particl__info {
+.about-allcryptoquick__info {
   margin-bottom: 64px;
   color: #777E90; }
 
-.about-particl__list {
+.about-allcryptoquick__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 -16px 64px; }
   @media only screen and (max-width: 767px) {
-    .about-particl__list {
+    .about-allcryptoquick__list {
       display: block;
       margin: 0 0 48px; } }
 
-.about-particl__item {
+.about-allcryptoquick__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(50% - 32px);
           flex: 0 0 calc(50% - 32px);
   width: calc(50% - 32px);
   margin: 0 16px; }
   @media only screen and (max-width: 767px) {
-    .about-particl__item {
+    .about-allcryptoquick__item {
       width: 100%;
       margin: 0; }
-      .about-particl__item:not(:last-child) {
+      .about-allcryptoquick__item:not(:last-child) {
         margin-bottom: 48px; } }
 
-.about-particl__category {
+.about-allcryptoquick__category {
   position: relative;
   margin-bottom: 32px;
   padding-bottom: 34px;
   font-weight: 600; }
   @media only screen and (max-width: 767px) {
-    .about-particl__category {
+    .about-allcryptoquick__category {
       margin-bottom: 24px;
       padding-bottom: 26px; } }
-  .about-particl__category:before {
+  .about-allcryptoquick__category:before {
     content: "";
     position: absolute;
     left: 0;
@@ -7011,23 +7011,23 @@ body.dark .some-icon {
     width: 100%;
     height: 2px;
     background: #E6E8EC; }
-    body.dark .about-particl__category:before {
+    body.dark .about-allcryptoquick__category:before {
       background: #353945; }
 
-.about-particl__content {
+.about-allcryptoquick__content {
   color: #777E90; }
 
-.about-particl__title-quote {
+.about-allcryptoquick__title-quote {
   margin-bottom: 10px;
   font-family: 'SFProDisplay-Bold';
   font-size: 30px;
   font-style: italic;
   line-height: 1.2; }
   @media only screen and (max-width: 767px) {
-    .about-particl__title-quote {
+    .about-allcryptoquick__title-quote {
       font-size: 32px; } }
 
-.about-particl__title-second {
+.about-allcryptoquick__title-second {
   margin-bottom: 40px;
   padding-bottom: 25px;
   border-bottom: 1px solid #E6E8EC;
@@ -7036,13 +7036,13 @@ body.dark .some-icon {
   color: #23262F;
   line-height: 1.2; }
   @media only screen and (max-width: 767px) {
-    .about-particl__title-second {
+    .about-allcryptoquick__title-second {
       font-size: 32px; } }
-  body.dark .about-particl__title-second {
+  body.dark .about-allcryptoquick__title-second {
     border-color: #353945;
     color: #ffffff; }
 
-.about-particl__author {
+.about-allcryptoquick__author {
   margin-bottom: 4px;
   font-weight: 600; }
 

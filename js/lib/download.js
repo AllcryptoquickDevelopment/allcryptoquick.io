@@ -1,25 +1,25 @@
 /* --- DESKTOP --- */
 
 var desktop_api = document.createElement('script');
-desktop_api.src = 'https://api.github.com/repos/particl/particl-desktop/releases/latest?callback=get_desktop_version';
+desktop_api.src = 'https://api.github.com/repos/allcryptoquick/allcryptoquick-desktop/releases/latest?callback=get_desktop_version';
 
 function get_desktop_version(response) {
   var version = response.data.tag_name, // get current tag from GH API (=> "v1.1.0")
       ver_num = version.substring(1), // strip the leading "v" (=> "1.1.0")
       // generate OS links
-      core_link = "https://github.com/particl/particl-desktop/releases/download/",
-          win64 = core_link + version + "/particl-desktop-" + ver_num + "-win-x64.zip",
-        win_exe = core_link + version + "/particl-desktop-" + ver_num + "-win.exe",
-        linux64 = core_link + version + "/particl-desktop-" + ver_num + "-linux-x64.zip",
-      linux_deb = core_link + version + "/particl-desktop-" + ver_num + "-linux-amd64.deb",
-      linux_rpm = core_link + version + "/particl-desktop-" + ver_num + "-linux-x86_64.rpm",
-            mac = core_link + version + "/particl-desktop-" + ver_num + "-mac.zip",
-        mac_dmg = core_link + version + "/particl-desktop-" + ver_num + "-mac.dmg",
-         source = "https://github.com/particl/particl-desktop/archive/" + version + ".zip",
-          guide = "https://github.com/particl/particl-desktop/releases/tag/" + version;
+      core_link = "https://github.com/allcryptoquick/allcryptoquick-desktop/releases/download/",
+          win64 = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-win-x64.zip",
+        win_exe = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-win.exe",
+        linux64 = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-linux-x64.zip",
+      linux_deb = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-linux-amd64.deb",
+      linux_rpm = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-linux-x86_64.rpm",
+            mac = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-mac.zip",
+        mac_dmg = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-mac.dmg",
+         source = "https://github.com/allcryptoquick/allcryptoquick-desktop/archive/" + version + ".zip",
+          guide = "https://github.com/allcryptoquick/allcryptoquick-desktop/releases/tag/" + version;
 
   // Insert current latest release version number to HTML
-  $('#particl-desktop-version').html(version);
+  $('#allcryptoquick-desktop-version').html(version);
 
   // Insert links for latest downloads
   $('#desktop-win64').attr("href", win64);
@@ -36,25 +36,25 @@ function get_desktop_version(response) {
 /* --- CORE & CLI --- */
 
 var core_api = document.createElement('script');
-core_api.src = 'https://api.github.com/repos/particl/particl-core/releases/latest?callback=get_core_version';
+core_api.src = 'https://api.github.com/repos/allcryptoquick/allcryptoquick-core/releases/latest?callback=get_core_version';
 
 function get_core_version(response) {
   var version = response.data.tag_name, // get current tag from GH API (=> "v1.1.0")
       ver_num = version.substring(1), // strip the leading "v" (=> "1.1.0")
       // generate OS links
-      core_link = "https://github.com/particl/particl-core/releases/download/",
-      win64_exe = core_link + version + "/particl-" + ver_num + "-win64-setup.exe",
-          win64 = core_link + version + "/particl-" + ver_num + "-win64.zip",
-        linux64 = core_link + version + "/particl-" + ver_num + "-x86_64-linux-gnu.tar.gz",
-      linux_arm = core_link + version + "/particl-" + ver_num + "-arm-linux-gnueabihf.tar.gz",
-            mac = core_link + version + "/particl-" + ver_num + "-osx-unsigned.dmg",
-        mac_tar = core_link + version + "/particl-" + ver_num + "-osx64.tar.gz",
-         source = "https://github.com/particl/particl-core/archive/" + version + ".zip",
-          guide = "https://github.com/particl/particl-core/releases/tag/" + version;
+      core_link = "https://github.com/allcryptoquick/allcryptoquick-core/releases/download/",
+      win64_exe = core_link + version + "/allcryptoquick-" + ver_num + "-win64-setup.exe",
+          win64 = core_link + version + "/allcryptoquick-" + ver_num + "-win64.zip",
+        linux64 = core_link + version + "/allcryptoquick-" + ver_num + "-x86_64-linux-gnu.tar.gz",
+      linux_arm = core_link + version + "/allcryptoquick-" + ver_num + "-arm-linux-gnueabihf.tar.gz",
+            mac = core_link + version + "/allcryptoquick-" + ver_num + "-osx-unsigned.dmg",
+        mac_tar = core_link + version + "/allcryptoquick-" + ver_num + "-osx64.tar.gz",
+         source = "https://github.com/allcryptoquick/allcryptoquick-core/archive/" + version + ".zip",
+          guide = "https://github.com/allcryptoquick/allcryptoquick-core/releases/tag/" + version;
 
   // Insert current latest release version number to HTML
-  $('#particl-core-version').html(version);
-  $('#particl-cli-version').html(version);
+  $('#allcryptoquick-core-version').html(version);
+  $('#allcryptoquick-cli-version').html(version);
 
   // Insert links for latest downloads
   $('#core-win64-exe').attr("href", win64_exe);
@@ -73,13 +73,13 @@ function get_core_version(response) {
 /* --- COPAY --- */
 
 var copay_api = document.createElement('script');
-copay_api.src = 'https://api.github.com/repos/particl/copay/releases/latest?callback=get_copay_version';
+copay_api.src = 'https://api.github.com/repos/allcryptoquick/copay/releases/latest?callback=get_copay_version';
 
 function get_copay_version(response) {
   var version = response.data.tag_name; // get current tag from GH API (=> "v1.1.0")
 
   // Insert current latest release version number to HTML
-  $('#particl-copay-version').html(version);
+  $('#allcryptoquick-copay-version').html(version);
 }
 
 $("head").append(desktop_api).append(core_api).append(copay_api);
