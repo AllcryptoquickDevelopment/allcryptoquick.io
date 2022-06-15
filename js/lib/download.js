@@ -7,7 +7,7 @@ function get_desktop_version(response) {
   var version = response.data.tag_name, // get current tag from GH API (=> "v1.1.0")
       ver_num = version.substring(1), // strip the leading "v" (=> "1.1.0")
       // generate OS links
-      core_link = "https://github.com/allcryptoquick/allcryptoquick-desktop/releases/download/",
+      core_link = "https://github.com/AllcryptoquickDevelopment/allcryptoquick-desktop/releases/download/",
           win64 = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-win-x64.zip",
         win_exe = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-win.exe",
         linux64 = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-linux-x64.zip",
@@ -15,8 +15,8 @@ function get_desktop_version(response) {
       linux_rpm = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-linux-x86_64.rpm",
             mac = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-mac.zip",
         mac_dmg = core_link + version + "/allcryptoquick-desktop-" + ver_num + "-mac.dmg",
-         source = "https://github.com/allcryptoquick/allcryptoquick-desktop/archive/" + version + ".zip",
-          guide = "https://github.com/allcryptoquick/allcryptoquick-desktop/releases/tag/" + version;
+         source = "https://github.com/AllcryptoquickDevelopment/allcryptoquick-desktop/archive/" + version + ".zip",
+          guide = "https://github.com/AllcryptoquickDevelopment/allcryptoquick-desktop/releases/tag/" + version;
 
   // Insert current latest release version number to HTML
   $('#allcryptoquick-desktop-version').html(version);
@@ -42,15 +42,15 @@ function get_core_version(response) {
   var version = response.data.tag_name, // get current tag from GH API (=> "v1.1.0")
       ver_num = version.substring(1), // strip the leading "v" (=> "1.1.0")
       // generate OS links
-      core_link = "https://github.com/allcryptoquick/allcryptoquick-core/releases/download/",
+      core_link = "https://github.com/AllcryptoquickDevelopment/allcryptoquick-core/releases/download/",
       win64_exe = core_link + version + "/allcryptoquick-" + ver_num + "-win64-setup.exe",
           win64 = core_link + version + "/allcryptoquick-" + ver_num + "-win64.zip",
         linux64 = core_link + version + "/allcryptoquick-" + ver_num + "-x86_64-linux-gnu.tar.gz",
       linux_arm = core_link + version + "/allcryptoquick-" + ver_num + "-arm-linux-gnueabihf.tar.gz",
             mac = core_link + version + "/allcryptoquick-" + ver_num + "-osx-unsigned.dmg",
         mac_tar = core_link + version + "/allcryptoquick-" + ver_num + "-osx64.tar.gz",
-         source = "https://github.com/allcryptoquick/allcryptoquick-core/archive/" + version + ".zip",
-          guide = "https://github.com/allcryptoquick/allcryptoquick-core/releases/tag/" + version;
+         source = "https://github.com/AllcryptoquickDevelopment/allcryptoquick-core/archive/" + version + ".zip",
+          guide = "https://github.com/AllcryptoquickDevelopment/allcryptoquick-core/releases/tag/" + version;
 
   // Insert current latest release version number to HTML
   $('#allcryptoquick-core-version').html(version);
